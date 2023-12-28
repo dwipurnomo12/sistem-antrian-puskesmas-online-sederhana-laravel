@@ -20,4 +20,24 @@ class DashboardAntrianController extends Controller
     {
         return view('dashboard.antrian.poliTht');
     }
+
+    public function indexPoliLansia()
+    {
+        return view('dashboard.antrian.poliLansia');
+    }
+
+    public function indexPoliBalita()
+    {
+        return view('dashboard.antrian.poliBalita');
+    }
+
+    public function indexPoliKia()
+    {
+        return view('dashboard.antrian.PoliKia');
+    }
+
+    public function indexPoliNifas()
+    {
+        return view('dashboard.antrian.poliNifas');
+    }
 }
